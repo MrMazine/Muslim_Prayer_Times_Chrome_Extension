@@ -1,0 +1,16 @@
+{
+    "name": "Salah Time",
+    "version": "1.0.0",
+    "description": "Adan Salah in kasba Tadla, Morocco",
+    "manifest_version": 3,
+    "author": "Hamza Mazine",
+    "icons": { 
+               "32": "mosque.png"},
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Salah"
+    },
+    "incognito": "spanning",
+    "short_name": "Salah Time"
+    
+}

@@ -1,0 +1,61 @@
+table {
+    border-collapse: collapse;
+    border-radius: .3em;
+    overflow: hidden;
+  }
+#Location{
+    color: white;
+    font-weight: 180;
+    width: auto;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.924);
+    display: inline-block;
+    padding: 2px 0px;
+    margin: 0;
+  }
+th, td, thead, tbody{
+    padding: 1em;
+    border-color: white;
+    border: 2px solid #fff; 
+    text-align: center;
+    color: white;
+    background-color: cadetblue; 
+  }
+thead{
+  background-color: #333;
+}
+td {
+  background-color: #fff;
+}
+tr:hover {
+  background-color: rgb(204, 181, 146); 
+  cursor:default;
+}
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin: 0;
+}
+body {
+    margin: 1.5em;
+    background-color: rgb(23, 175, 193);
+  }
+#btn{
+  display: inline-block;
+  background-color: rgb(23, 175, 193);
+  color: none;
+  border: none;
+  width: 29px;
+  height: 29px;
+  display: inline-block;
+  padding: 0px;
+}
+.date{
+  display: inline-block;
+  padding-right: 27%;
+  color: white;
+  font-weight: 150;
+  font-style: italic;
+}
+.Geo{
+  padding-left: 0%;
+}

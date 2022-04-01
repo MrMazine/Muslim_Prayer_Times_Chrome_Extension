@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> SALAH </title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container" style="width: 450px; border: 1px solid whitesmoke; border-radius: 12px;"> 
+        <h2 class="text-center" >SALAH <img src="mosque.png" alt="" style="display: inline-block; margin-bottom: 8px;"></h2>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>FAJR</th>
+                <th>DHUHR</th>
+                <th>ASR</th>
+                <th>MAGHRIB</th>
+                <th>ISHA</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td id="FAJR"></td>
+                <td id="DHUHR"></td>
+                <td id="ASR"></td>
+                <td id="MAGHRIB"></td>
+                <td id="ISHA"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Footer -->
+    <div class="container Geo" style="padding-left: 0%;">
+        <img src="calender.ico" alt="" style="width:27px; height:27px; margin-bottom: 5px;">
+        <h4 class="text-center date " id="date" ></h4>
+        <h4 class="text-center mt-1 " id="Location" ></h4>
+        <button id="btn" aria-readonly="true" onclick="fetchData_ip()" class=" "> 
+            <img src ="location.png" alt="location_icon" 
+                 style ="width: auto;height: 17px; margin-bottom: 2px;">
+        </button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html> 
