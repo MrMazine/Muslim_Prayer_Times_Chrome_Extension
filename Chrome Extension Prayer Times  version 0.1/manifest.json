@@ -1,7 +1,7 @@
 {
-    "name": "Salah Time",
+    "name": "Muslim Prayer Times",
     "version": "1.0.0",
-    "description": "Adan Salah in kasba Tadla, Morocco",
+    "description": "Muslim Prayer Times Chrome Extension",
     "manifest_version": 3,
     "author": "Hamza Mazine",
     "icons": { 
